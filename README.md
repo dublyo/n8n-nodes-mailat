@@ -1,11 +1,13 @@
 # n8n-nodes-mailat
 
 [![npm version](https://img.shields.io/npm/v/n8n-nodes-mailat.svg)](https://www.npmjs.com/package/n8n-nodes-mailat)
+[![npm downloads](https://img.shields.io/npm/dm/n8n-nodes-mailat.svg)](https://www.npmjs.com/package/n8n-nodes-mailat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Community n8n node for [Mailat](https://github.com/dublyo/mailat) — the open-source, self-hosted email platform. Send transactional emails, manage your inbox, and react to email events from n8n workflows.
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/n8n-nodes-mailat"><img src="https://img.shields.io/badge/npm-n8n--nodes--mailat-cb3837?style=for-the-badge&logo=npm" alt="npm" /></a>
   <a href="https://dublyo.com"><img src="https://img.shields.io/badge/Deploy%20Mailat-Dublyo%20PaaS-6366f1?style=for-the-badge" alt="Deploy on Dublyo" /></a>
   <a href="https://github.com/dublyo/mailat"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
 </p>
@@ -85,12 +87,8 @@ Starts a workflow when an event occurs in Mailat. Select one or more events to l
 | `contact_updated` | Contact updated |
 | `contact_deleted` | Contact deleted |
 | `campaign_sent` | Campaign started sending |
-| `campaign_opened` | Campaign email opened by recipient |
-| `campaign_clicked` | Link clicked in a campaign email |
 | `bounce_received` | Email bounced (hard or soft) |
 | `complaint_received` | Spam complaint received |
-| `subscribed` | Someone subscribed to a mailing list |
-| `unsubscribed` | Someone unsubscribed from a mailing list |
 
 ## Example Workflows
 
@@ -123,6 +121,7 @@ Starts a workflow when an event occurs in Mailat. Select one or more events to l
 
 ## Resources
 
+- [n8n-nodes-mailat on npm](https://www.npmjs.com/package/n8n-nodes-mailat) — install via npm or n8n Community Nodes
 - [Mailat on GitHub](https://github.com/dublyo/mailat) — source code, issues, contributions
 - [Dublyo PaaS](https://dublyo.com) — deploy Mailat (and 150+ other apps) with one click
 - [n8n Community Nodes Docs](https://docs.n8n.io/integrations/community-nodes/)
